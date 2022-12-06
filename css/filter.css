@@ -1,0 +1,34 @@
+*{ 
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+section {
+	background-color:#ff000008;
+}
+.container {
+	width:100%;
+    margin:auto;
+}
+.row {
+	display:flex;
+	justify-content:space-around;
+}
+.box{ 
+	 filter:grayscale(100%);
+}
+.box:hover {
+	filter:grayscale(1%);
+	transform:scale(1.1);
+	transition:all 1s;
+}
+.box img {
+	 max-width:60%;
+	 margin:20px;
+}
+
+
+
+
+
+
